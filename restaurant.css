@@ -1,0 +1,51 @@
+
+.Pastalitalogo{
+    padding: 20px;
+    width: 250px;
+}
+
+
+.navigationbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid blue; }
+
+
+
+
+.body {
+    display: flex;
+    padding: 50px;
+    border: 3px solid gray;
+    text-align: center; 
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.Restaurant-Container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    gap: 20px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+
+.Restaurant {
+    padding: 25px;
+    background-color: #f0f0f0; 
+    border: 5px solid gray; 
+    border-radius: 30px;
+    max-width: 600px;
+    align-items: center;
+   margin: 20px;}
+
+ .element1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
