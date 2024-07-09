@@ -1,0 +1,312 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f2f6;
+    color: rgb(7, 5, 38);
+}
+
+nav {
+    flex: 1;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav-links a {
+    color:rgb(0, 26, 255);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.nav-links a:hover {
+    color: #f0f011;
+}
+
+.logo img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+/* search box settings */
+.search-bar {
+    padding: 5px;
+    border: 1px solid #f8f7ed;
+    border-radius: 5px;
+    margin-right: 10px;
+    border-radius: 2px;
+
+}
+
+/* search box settings 
+.search-bar  {
+    padding: 0.5rem;
+    background-color: #f8f6d9;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}*/
+
+.search-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px;
+}
+
+/* Main content settings */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Text content settings */
+.text-content {
+    flex: 1;
+}
+
+.text-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+.text-content .highlight {
+    color: rgb(16, 36, 250);
+}
+
+.text-content p {
+    font-size: 18px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0;
+}
+
+.text-content .cta-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #0225c1;
+    color: rgb(255, 251, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    ;
+}
+
+.text-content .cta-btn:hover {
+    background-color: #578efcde;
+}
+
+/* Image content settings */
+.image-content {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-content img {
+    width: 80%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .main-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-content, .image-content {
+        flex: 100%;
+    }
+}
+
+.nav-active {
+    display: flex !important;
+}
+
+
+
+/* Weekly highlights section */
+.weekly-highlights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.highlight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.recipes img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.highlight-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.highlight-text h2 {
+    font-size: 24px;
+    color: #072ef1;
+    margin-bottom: 20px;
+}
+
+.highlight-text p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.view-more {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.view-more:hover {
+    background-color: #0056b3;
+}
+
+.restaurants h2 {
+    font-size: 24px;
+    color: #0307f3;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.restaurant-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.restaurant {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.restaurant img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .main-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-content, .image-content {
+        flex: 100%;
+    }
+
+    .highlight {
+        flex-direction: column;
+    }
+
+    .restaurant-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .restaurant {
+        margin-bottom: 20px;
+    }
+}
+
+.nav-active {
+    display: flex !important;
+}
+
+
