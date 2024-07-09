@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+header .navbar {
+    background-color: #fefefd;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #205EAC;
+}
+
+.navbar-nav .nav-link {
+    color: #205EAC;
+    font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFCC33;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.nav-links a:hover {
+    color: #007BFF;
+}
+
+.logo img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.hero {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    margin-bottom: 50px;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000307;
+}
+
+.hero span {
+    color: #FFCC33;
+}
+
+.hero p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #01050b;
+}
+
+.hero .btn {
+    background-color: #205EAC;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero .btn:hover {
+    background-color: #FFCC33;
+}
+
+.recipes, .restaurants {
+    padding: 20px;
+    text-align: center;
+}
+
+.recipes h2, .restaurants h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #205EAC;
+}
+
+.recipes p {
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+.recipes .btn, .restaurants .btn {
+    background-color: #205EAC;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.recipes .btn:hover, .restaurants .btn:hover {
+    background-color: #FFCC33;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #F3E6A6;
+}
+
+.footer-links a {
+    color: #205EAC;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #FFCC33;
+}
+
+.social-media a {
+    color: #205EAC;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    color: #FFCC33;
+}
+
+.social-media i {
+    font-size: 24px;
+    margin: 0 10px;
+}
